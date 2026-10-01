@@ -1,0 +1,5 @@
+# Optional bonus output
+# Run from the student01 home directory:
+# history > ~/commands_used.txt
+#
+# Paste or copy the resulting history here if you want to include it in this repository.

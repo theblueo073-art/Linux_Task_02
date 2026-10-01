@@ -1,0 +1,157 @@
+    1  echo $SHELL
+    2  clear
+    3  ls
+    4  cd project\\nclear
+    5  cd project
+    6  mkdir docs scripts bim
+    7  ls
+    8  cd bim
+    9  cd project
+   10  cd ~
+   11  ls
+   12  cd project
+   13  ls
+   14  mv bim bin
+   15  ls
+   16  cd docs
+   17  echo report.tx
+   18  cd report.txt
+   19  echo " This is the initial report by the student01" > report.txt
+   20  cat report.txt
+   21  clear
+   22  su kali
+   23  cd ~
+   24  clear
+   25  ls
+   26  cd project
+   27  ls
+   28  cd docs
+   29  cd bin
+   30  cd /home/student01/project/bin
+   31  cd /home/student01/project/docs
+   32  ls
+   33  cat report.txt
+   34  ls -la
+   35  mkdir .secret.txt
+   36  nano .secret.txt
+   37  cat .secret.txt
+   38  rmdir .secret.txt
+   39  ls
+   40  echo " Top Secret" > .secret.txt
+   41  ls
+   42  ls -la
+   43  nano report.txt
+   44  cp /home/student01/project/docs/report.txt > /home/student01/project/script
+   45  cp report.txt > /home/student01/project/script
+   46  cd ~
+   47  ls
+   48  cd projec
+   49  cd project
+   50  ls
+   51  cd script
+   52  cat script
+   53  ls docs
+   54  cp report.txt > /home/student01/project/scripts
+   55  sudo cp report.txt > /home/student01/project/scripts
+   56  cd docs
+   57  ls
+   58  cp report.txt /scripts/
+   59  cp report.txt ../scripts/
+   60  ls
+   61  cd project
+   62  cd~
+   63  cd ~
+   64  ls
+   65  cd project
+   66  ls
+   67  cd scripts
+   68  ls
+   69  cd ~
+   70  ls
+   71  cd project
+   72  ls
+   73  cd docs
+   74  ls -la
+   75  cp .secret.txt ../bin/classified.txt
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd bin
+   80  ls
+   81  cat classified.txt
+   82  cd ..
+   83  ls
+   84  rmdir script
+   85  cat script
+   86  rm script
+   87  ls
+   88  cd scripts
+   89  echo " #
+   90  echo "#! /bin/bash                                                                                   Installing project dependencies..." > install.sh
+   91  cat install.sh
+   92  nano install.sh
+   93  ls
+   94  cat install.sh
+   95  ls
+   96  ls -l install.sh
+   97  chmod 755 install.sh
+   98  ls -l install.sh
+   99  cd ..
+  100  ls
+  101  cd scripts
+  102  ls
+  103  cd .
+  104  cd ..
+  105  ls
+  106  cd bin
+  107  ls
+  108  ls -l classified.txt
+  109  chmod 660 classified.txt
+  110  ls -l classified.txt
+  111  cd ..
+  112  ls
+  113  cd docs
+  114  touch admin_notes.txt
+  115  ls
+  116  ls -l admin_notes.txt
+  117  chmod u+rw admin_notes.txt
+  118  ls -l
+  119  history > command_used2.txt
+  120  cd ..
+  121  ls
+  122  cd project
+  123  tree ~
+  124  cd ..
+  125  history >> command used2.txt
+  126  sudo history >> command used2.txt
+  127  history >> command_used2.txt\n
+  128  cd ~
+  129  history > command_used2.txt
+  130  tree ~
+  131  cat command_used2.txt
+  132  cd ~
+  133  ls
+  134  cd project
+  135  ls
+  136  cd docs
+  137  ls
+  138  sudo del admin_notes.txt
+  139  rm admin_notes.txt
+  140  ls
+  141  cd ..
+  142  mkdir backup
+  143  ls
+  144  cd docs
+  145  ls
+  146  cp command_used2.txt report.txt ../backup
+  147  cd ..
+  148  cd scripts
+  149  ls
+  150  cp install.sh report.txt ../backup
+  151  cd ..
+  152  cd backup
+  153  ls
+  154  cd ~
+  155  tree project
+  156  ls -la
+  157  ls -la project
